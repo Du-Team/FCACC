@@ -30,5 +30,3 @@ To train FCACC on UCR dataset, run the following command:
 ```run
 python batch_run.py
 ```
-
-For more related researches, please visit my homepage: https://dumingjing.github.io/. For data and discussion, please message Mingjing Du (杜明晶@江苏师范大学): dumj@jsnu.edu.cn.
