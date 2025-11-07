@@ -23,6 +23,13 @@ The recommended requirements for FCACC are specified as follows:
 
 Note that you should have CUDA installed for running the code.
 
+### Dataset Preparation
+
+Before running FCACC, it is essential to prepare the dataset. The time series dataset used in this project is sourced from the [UCR archive](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/).
+
+If you encounter any issues while downloading the dataset, you can also use the datasets available in the `dataset` directory. The datasets are stored in `dataset(1).7z` and `dataset(2).7z` files. A brief overview of the datasets is provided in the `DataSummary.xlsx` file located in the same directory. For detailed information about each dataset, please refer to the `README.md` file within each dataset's respective folder inside the compressed archive.
+
+
 ## Usage
 
 To train FCACC on UCR dataset, run the following command:
