@@ -37,3 +37,31 @@ To train FCACC on UCR dataset, run the following command:
 ```run
 python batch_run.py
 ```
+
+## Hyperparameters
+
+The following hyperparameters are used to configure the FCACC model training and fine-tuning process:
+
+- **`batch_size`** (default: `8`): The number of samples processed together in one forward/backward pass.   Smaller batch sizes can help the model generalize better, but may increase training time.
+
+- **`repr_dims`** (default: `64`): The number of dimensions for the representation (embedding) space.   This determines the size of the feature vectors used by the model.
+
+- **`lr`** (default: `0.001`): The learning rate for the pre-training phase.   This controls how much the model's weights are adjusted with respect to the loss gradient.
+
+- **`pretraining_epoch`** (default: `100`): The number of epochs to train the model during the pre-training phase.   Pre-training helps the model learn useful representations before fine-tuning.
+
+- **`MaxIter`** (default: `30`): The number of iterations (epochs) for the fine-tuning phase.   This phase focuses on refining the pre-trained model to achieve better accuracy on the specific dataset.
+
+- **`w_c`** (default: `0.2`): A hyperparameter controlling the weight of a specific regularization term in the loss function.   It helps balance the model's complexity and generalization ability.
+
+- **`m`** (default: `1.5`): A hyperparameter that influences the magnitude of the loss function, affecting the learning process during fine-tuning.   It may impact how quickly the model converges.
+
+- **`seed`** (default: `1127`): The random seed used for initializing the model and data shuffling.
+
+- **`irregular`** (default: `0`): Controls the dropout rate applied to the training data.   A non-zero value simulates missing data (irregularities) by randomly dropping parts of the data.   This can help make the model more robust to missing or noisy inputs.
+
+- **`hard_w`** (default: `0.2`): The weight parameter for "hard negatives," which helps control the difficulty of negative samples used during training.   Adjusting this can improve the model's ability to discriminate between similar and dissimilar samples.
+
+- **`explanation`** (default: `""`): A custom string that can be added to the results file name to describe or categorize the specific experiment being run.
+
+These hyperparameters are configurable through command-line arguments when running the script, allowing you to tailor the training process to your specific dataset and objectives.
