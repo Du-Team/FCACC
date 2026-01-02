@@ -1,13 +1,12 @@
 # Fuzzy Cluster-Aware Contrastive Clustering for Time Series (FCACC)
 FCACC (Fuzzy Cluster-Aware Contrastive Clustering) is an innovative unsupervised time series clustering framework that combines the advantages of contrastive learning and fuzzy clustering. It is designed to improve the representation learning and clustering performance of time series data. This method introduces a three-view data augmentation strategy to comprehensively capture the diverse features of time series, and employs a cluster-aware hard negative sample generation mechanism along with a clustering-aware positive and negative sample pair selection to effectively enhance the model's discriminative power. By utilizing the fuzzy c-means (FCM) clustering algorithm, FCACC can handle complex time series structures, dynamically generate cluster structures, and guide the optimization process of contrastive learning.
 
-## Introduction
+## Introduction ##
 
 A Python implementation of the clustering algorithm presented in:
 
-```
-      Congyu Wang, Mingjing Du*, Xiang Jiang, Yongquan Dong*. Fuzzy cluster-aware contrastive clustering for time series. Pattern Recognition, 2026, 173: 112899.
-```
+      <b><i> Congyu Wang, Mingjing Du*, Xiang Jiang, Yongquan Dong*. Fuzzy cluster-aware contrastive clustering for time series. Pattern Recognition, 2026, 173: 112899.</i></b>
+
 
 The paper is available online at: <a href="https://dumingjing.github.io/files/paper-21_Fuzzy%20cluster-aware%20contrastive%20clustering%20for%20time%20series/2026_PR_Fuzzy%20cluster-aware%20contrastive%20clustering%20for%20time%20series.pdf">pdf</a>. 
 
