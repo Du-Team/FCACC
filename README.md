@@ -7,7 +7,7 @@ A Python implementation of the clustering algorithm presented in:
 
      <b><i> Congyu Wang, Mingjing Du*, Xiang Jiang, Yongquan Dong*. Fuzzy cluster-aware contrastive clustering for time series. Pattern Recognition, 2026, 173: 112899.</i></b>
 
-The paper is available online at: <a href="https://www.sciencedirect.com/science/article/pii/S0031320325015626">pdf</a>. 
+The paper is available online at: <a href="https://dumingjing.github.io/files/paper-21_Fuzzy%20cluster-aware%20contrastive%20clustering%20for%20time%20series/2026_PR_Fuzzy%20cluster-aware%20contrastive%20clustering%20for%20time%20series.pdf">pdf</a>. 
 
 
 If you use this implementation in your work, please add a reference/citation to the paper. You can use the following bibtex entry:
