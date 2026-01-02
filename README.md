@@ -5,7 +5,9 @@ FCACC (Fuzzy Cluster-Aware Contrastive Clustering) is an innovative unsupervised
 
 A Python implementation of the clustering algorithm presented in:
 
+```
       Congyu Wang, Mingjing Du*, Xiang Jiang, Yongquan Dong*. Fuzzy cluster-aware contrastive clustering for time series. Pattern Recognition, 2026, 173: 112899.
+```
 
 The paper is available online at: <a href="https://dumingjing.github.io/files/paper-21_Fuzzy%20cluster-aware%20contrastive%20clustering%20for%20time%20series/2026_PR_Fuzzy%20cluster-aware%20contrastive%20clustering%20for%20time%20series.pdf">pdf</a>. 
 
